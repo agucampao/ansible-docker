@@ -1,7 +1,5 @@
 ---
 - hosts        : docker-hosts
-  gather_facts : yes
   become       : True
-
   roles:
     - ansible-dockerized-wordpress
